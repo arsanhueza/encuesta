@@ -1,0 +1,16 @@
+PODS:
+  - SurveyNative (0.1.14)
+
+DEPENDENCIES:
+  - SurveyNative
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SurveyNative
+
+SPEC CHECKSUMS:
+  SurveyNative: d68a1bedf40911c7f6cba7eb317e22eb50acc8f2
+
+PODFILE CHECKSUM: 438530b334c518ffe4e9ca61c1c81daa85419d22
+
+COCOAPODS: 1.5.3
