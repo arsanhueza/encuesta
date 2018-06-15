@@ -27,8 +27,7 @@ class AddTextFieldTableViewCell: UITableViewCell, UITextFieldDelegate, TableView
          for value in currentValues!.suffix(from: 1) {
             addTextField(value: value)
          }
-      }
-   }
+      }  }
    
    override func awakeFromNib() {
       super.awakeFromNib()
@@ -48,7 +47,7 @@ class AddTextFieldTableViewCell: UITableViewCell, UITextFieldDelegate, TableView
          if (extraTextFields[0].text == "") {
             extraTextFields[0].becomeFirstResponder()
          }
-      }
+    }
    }
    
    @IBAction func tappedNextButton(_ sender: UIButton) {
@@ -57,7 +56,7 @@ class AddTextFieldTableViewCell: UITableViewCell, UITextFieldDelegate, TableView
       data.append(firstTextField!.text!)
       for textField in extraTextFields {
          data.append(textField.text!)
-      }
+    }
       data = data.filter({ !$0.isEmpty })
       dataDelegate?.update(updateId: updateId!, data: data)
    }
